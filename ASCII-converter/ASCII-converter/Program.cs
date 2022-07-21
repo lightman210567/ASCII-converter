@@ -7,6 +7,12 @@ namespace lightman210567.ASCIIConverter
         public static int UpperCharacterConvert(char letter)
         {
             int ASCII;
+
+            switch (letter)
+            {
+
+            };
+
             return ASCII;
         }
 
