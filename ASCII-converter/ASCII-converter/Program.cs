@@ -2,7 +2,7 @@
 
 namespace lightman210567.ASCIIConverter
 {
-    public class Converter
+    public class TextConverter
     {
         public static int Convert(char letter)
         {
