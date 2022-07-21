@@ -5,6 +5,7 @@
     <RootNamespace>ASCII_converter</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>lightman210567</Authors>
   </PropertyGroup>
 
 </Project>
