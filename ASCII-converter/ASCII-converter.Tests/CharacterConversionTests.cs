@@ -8,6 +8,32 @@ namespace ASCIIConverter.Tests
     public class CharacterConversionTests
     {
         [TestMethod]
+        [DataRow('A')]
+        [DataRow('B')]
+        [DataRow('C')]
+        [DataRow('D')]
+        [DataRow('E')]
+        [DataRow('F')]
+        [DataRow('G')]
+        [DataRow('H')]
+        [DataRow('I')]
+        [DataRow('J')]
+        [DataRow('K')]
+        [DataRow('L')]
+        [DataRow('M')]
+        [DataRow('N')]
+        [DataRow('O')]
+        [DataRow('P')]
+        [DataRow('Q')]
+        [DataRow('R')]
+        [DataRow('S')]
+        [DataRow('T')]
+        [DataRow('U')]
+        [DataRow('V')]
+        [DataRow('W')]
+        [DataRow('X')]
+        [DataRow('Y')]
+        [DataRow('Z')]
         public void UpperCaseConversion(char letter)
         {
             int ASCII;
