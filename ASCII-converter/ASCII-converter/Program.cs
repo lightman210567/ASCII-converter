@@ -11,82 +11,82 @@ namespace lightman210567.AsciiConverter
             switch (letter)
             {
                 case 'a':
-                    ASCII = 65;
+                    ASCII = 97;
                     break;
                 case 'b':
-                    ASCII = 66;
+                    ASCII = 98;
                     break;
                 case 'c':
-                    ASCII = 67;
+                    ASCII = 99;
                     break;
                 case 'd':
-                    ASCII = 68;
+                    ASCII = 100;
                     break;
                 case 'e':
-                    ASCII = 69;
+                    ASCII = 101;
                     break;
                 case 'f':
-                    ASCII = 70;
+                    ASCII = 102;
                     break;
                 case 'g':
-                    ASCII = 71;
+                    ASCII = 103;
                     break;
                 case 'h':
-                    ASCII = 72;
+                    ASCII = 104;
                     break;
                 case 'i':
-                    ASCII = 73;
+                    ASCII = 105;
                     break;
                 case 'j':
-                    ASCII = 74;
+                    ASCII = 106;
                     break;
                 case 'k':
-                    ASCII = 75;
+                    ASCII = 107;
                     break;
                 case 'l':
-                    ASCII = 76;
+                    ASCII = 108;
                     break;
                 case 'm':
-                    ASCII = 77;
+                    ASCII = 109;
                     break;
                 case 'n':
-                    ASCII = 78;
+                    ASCII = 110;
                     break;
                 case 'o':
-                    ASCII = 79;
+                    ASCII = 111;
                     break;
                 case 'p':
-                    ASCII = 80;
+                    ASCII = 112;
                     break;
                 case 'q':
-                    ASCII = 81;
+                    ASCII = 113;
                     break;
                 case 'r':
-                    ASCII = 82;
+                    ASCII = 114;
                     break;
                 case 's':
-                    ASCII = 83;
+                    ASCII = 115;
                     break;
                 case 't':
-                    ASCII = 84;
+                    ASCII = 116;
                     break;
                 case 'u':
-                    ASCII = 85;
+                    ASCII = 117;
                     break;
                 case 'v':
-                    ASCII = 86;
+                    ASCII = 118;
                     break;
                 case 'w':
-                    ASCII = 87;
+                    ASCII = 119;
                     break;
                 case 'x':
-                    ASCII = 88;
+                    ASCII = 120;
                     break;
                 case 'y':
-                    ASCII = 89;
+                    ASCII = 121;
                     break;
                 case 'z':
-                    ASCII = 90;
+                    ASCII = 122;
                     break;
                 default:
                     throw new Exception("An error has occured.");
