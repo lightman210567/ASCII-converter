@@ -6,6 +6,8 @@ namespace lightman210567.AsciiConverter
     {
         public static int Convert(char letter)
         {
+            int ASCII;
+
             switch (letter)
             {
                 case 'a':
@@ -61,6 +63,8 @@ namespace lightman210567.AsciiConverter
                 case 'z':
                     throw new NotImplementedException("Not yet implemented");
             };
+
+            return ASCII;
 
         }
     }
