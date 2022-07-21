@@ -10,9 +10,114 @@ namespace ASCIIConverter.Tests
         [TestMethod]
         public void UpperCaseConversion(char letter)
         {
+            int ASCII;
+
             switch (letter)
             {
-                
+                case 'A':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(65, ASCII);
+                    break;
+                case 'B':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(66, ASCII);
+                    break;
+                case 'C':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(67, ASCII);
+                    break;
+                case 'D':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(68, ASCII);
+                    break;
+                case 'E':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(69, ASCII);
+                    break;
+                case 'F':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(70, ASCII);
+                    break;
+                case 'G':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(71, ASCII);
+                    break;
+                case 'H':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(72, ASCII);
+                    break;
+                case 'I':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(73, ASCII);
+                    break;
+                case 'J':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(74, ASCII);
+                    break;
+                case 'K':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(75, ASCII);
+                    break;
+                case 'L':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(76, ASCII);
+                    break;
+                case 'M':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(77, ASCII);
+                    break;
+                case 'N':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(78, ASCII);
+                    break;
+                case 'O':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(79, ASCII);
+                    break;
+                case 'P':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(80, ASCII);
+                    break;
+                case 'Q':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(81, ASCII);
+                    break;
+                case 'R':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(82, ASCII);
+                    break;
+                case 'S':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(83, ASCII);
+                    break;
+                case 'T':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(84, ASCII);
+                    break;
+                case 'U':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(85, ASCII);
+                    break;
+                case 'V':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(86, ASCII);
+                    break;
+                case 'W':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(87, ASCII);
+                    break;
+                case 'X':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(88, ASCII);
+                    break;
+                case 'Y':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(89, ASCII);
+                    break;
+                case 'Z':
+                    ASCII = TextConverter.LowerCharacterConvert(letter);
+                    Assert.AreEqual(90, ASCII);
+                    break;
             };
         }
 
