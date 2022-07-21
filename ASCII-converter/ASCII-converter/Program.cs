@@ -89,6 +89,7 @@ namespace lightman210567.ASCIIConverter
                     ASCII = 90;
                     break;
                 default:
+                    ASCII = 00;
                     throw new Exception("An error has occured");
             };
 
@@ -181,6 +182,7 @@ namespace lightman210567.ASCIIConverter
                     ASCII = 122;
                     break;
                 default:
+                    ASCII = 00;
                     throw new Exception("An error has occured.");
             };
 
