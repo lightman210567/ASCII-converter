@@ -8,6 +8,12 @@ namespace ASCIIConverter.Tests
     public class CharacterConversionTests
     {
         [TestMethod]
+        public void UpperCaseConversion(char letter)
+        {
+
+        }
+
+        [TestMethod]
         [DataRow('a')]
         [DataRow('b')]
         [DataRow('c')]
