@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace lightman210567.AsciiConverter
+namespace lightman210567.ASCIIConverter
 {
     public class Converter
     {
