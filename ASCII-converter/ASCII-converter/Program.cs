@@ -4,6 +4,12 @@ namespace lightman210567.ASCIIConverter
 {
     public class TextConverter
     {
+        public static int UpperCharacterConvert(char letter)
+        {
+            int ASCII;
+            return ASCII;
+        }
+
         // converts lower case characters into ASCII numbers
         public static int LowerCharacterConvert(char letter)
         {
