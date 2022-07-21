@@ -10,7 +10,10 @@ namespace ASCIIConverter.Tests
         [TestMethod]
         public void UpperCaseConversion(char letter)
         {
-
+            switch (letter)
+            {
+                
+            };
         }
 
         [TestMethod]
