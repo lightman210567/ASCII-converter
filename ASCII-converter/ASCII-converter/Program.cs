@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace lightman210567.AsciiConverter
+{
+    public class Converter
+    {
+        public static int Convert(char letter)
+        {
+
+        }
+    }
+}
