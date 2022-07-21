@@ -8,6 +8,12 @@ namespace ASCIIConverter.Tests
     public class CharacterConversionTests
     {
         [TestMethod]
+        [DataRow('a')]
+        [DataRow('b')]
+        [DataRow('c')]
+        [DataRow('x')]
+        [DataRow('y')]
+        [DataRow('z')]
         public static void LowerCaseConversion(char letter)
         {
             switch (letter)
