@@ -4,6 +4,98 @@ namespace lightman210567.ASCIIConverter
 {
     public class TextConverter
     {
+        public static int UpperCharacterConvert(char letter)
+        {
+            int ASCII;
+
+            switch (letter)
+            {
+                case 'A':
+                    ASCII = 65;
+                    break;
+                case 'B':
+                    ASCII = 66;
+                    break;
+                case 'C':
+                    ASCII = 67;
+                    break;
+                case 'D':
+                    ASCII = 68;
+                    break;
+                case 'E':
+                    ASCII = 69;
+                    break;
+                case 'F':
+                    ASCII = 70;
+                    break;
+                case 'G':
+                    ASCII = 71;
+                    break;
+                case 'H':
+                    ASCII = 72;
+                    break;
+                case 'I':
+                    ASCII = 73;
+                    break;
+                case 'J':
+                    ASCII = 74;
+                    break;
+                case 'K':
+                    ASCII = 75;
+                    break;
+                case 'L':
+                    ASCII = 76;
+                    break;
+                case 'M':
+                    ASCII = 77;
+                    break;
+                case 'N':
+                    ASCII = 78;
+                    break;
+                case 'O':
+                    ASCII = 79;
+                    break;
+                case 'P':
+                    ASCII = 80;
+                    break;
+                case 'Q':
+                    ASCII = 81;
+                    break;
+                case 'R':
+                    ASCII = 82;
+                    break;
+                case 'S':
+                    ASCII = 83;
+                    break;
+                case 'T':
+                    ASCII = 84;
+                    break;
+                case 'U':
+                    ASCII = 85;
+                    break;
+                case 'V':
+                    ASCII = 86;
+                    break;
+                case 'W':
+                    ASCII = 87;
+                    break;
+                case 'X':
+                    ASCII = 88;
+                    break;
+                case 'Y':
+                    ASCII = 89;
+                    break;
+                case 'Z':
+                    ASCII = 90;
+                    break;
+                default:
+                    ASCII = 00;
+                    throw new Exception("An error has occured");
+            };
+
+            return ASCII;
+        }
+
         // converts lower case characters into ASCII numbers
         public static int LowerCharacterConvert(char letter)
         {
@@ -90,6 +182,7 @@ namespace lightman210567.ASCIIConverter
                     ASCII = 122;
                     break;
                 default:
+                    ASCII = 00;
                     throw new Exception("An error has occured.");
             };
 
