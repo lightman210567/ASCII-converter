@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>lightman210567.ASCIIConverter</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>lightman210567</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <!-- <icon>icon.png</icon> -->
     <repository type="git" url="https://github.com/lightman210567/ASCII-converter.git"></repository>
     <description>A package to convert characters into their respective ASCII numbers</description>
-    <releaseNotes>Added character to ASCII conversion.</releaseNotes>
+    <releaseNotes>Added upper case support for character conversion.</releaseNotes>
   </metadata>
 </package>
