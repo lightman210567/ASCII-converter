@@ -4,10 +4,12 @@ using lightman210567.ASCIIConverter;
 
 namespace ASCIIConverter.Tests
 {
+    // the class to hold all tests relating to character conversion
     [TestClass]
     public class CharacterConversionTests
     {
         [TestMethod]
+        // DataRows to input every upper case letter
         [DataRow('A')]
         [DataRow('B')]
         [DataRow('C')]
@@ -34,10 +36,12 @@ namespace ASCIIConverter.Tests
         [DataRow('X')]
         [DataRow('Y')]
         [DataRow('Z')]
+        // the test method to check that all upper case conversions mathc the expected output
         public void UpperCaseConversion(char letter)
         {
             int ASCII;
 
+            // identifies what letter was inputted for the test, and checks if the conversion matches the expected value
             switch (letter)
             {
                 case 'A':
@@ -148,6 +152,7 @@ namespace ASCIIConverter.Tests
         }
 
         [TestMethod]
+        // DataRows to input every lower case letter
         [DataRow('a')]
         [DataRow('b')]
         [DataRow('c')]
@@ -174,10 +179,12 @@ namespace ASCIIConverter.Tests
         [DataRow('x')]
         [DataRow('y')]
         [DataRow('z')]
+        // the test method to check if lower case conversions match the expected values
         public void LowerCaseConversion(char letter)
         {
             int ASCII;
 
+            // identifies what letter was inputted then tests if the conversion is equal to the expected result
             switch (letter)
             {
                 case 'a':
