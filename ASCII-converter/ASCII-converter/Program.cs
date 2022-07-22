@@ -4,10 +4,12 @@ namespace lightman210567.ASCIIConverter
 {
     public class TextConverter
     {
+        // the method for converting a upper case character to ASCII
         public static int UpperCharacterConvert(char letter)
         {
             int ASCII;
 
+            // identifies what letter was entered and sets the ASCII value accordingly
             switch (letter)
             {
                 case 'A':
@@ -89,18 +91,19 @@ namespace lightman210567.ASCIIConverter
                     ASCII = 90;
                     break;
                 default:
-                    ASCII = 00;
-                    throw new Exception("An error has occured");
+                    ASCII = 00; // sets the ASCII value to 00. 00 is ASCII for NUL
+                    throw new Exception("An error has occured"); // throws an exception if none of the about cases are met.
             };
 
             return ASCII;
         }
 
-        // converts lower case characters into ASCII numbers
+        // the method for converting lower case characters to ASCII
         public static int LowerCharacterConvert(char letter)
         {
             int ASCII;
 
+            // identifies what letter was inputted and sets the ASCII value accordingly
             switch (letter)
             {
                 case 'a':
@@ -182,11 +185,11 @@ namespace lightman210567.ASCIIConverter
                     ASCII = 122;
                     break;
                 default:
-                    ASCII = 00;
-                    throw new Exception("An error has occured.");
+                    ASCII = 00; // sets the ASCII value to 00. 00 is ASCII for NUL
+                    throw new Exception("An error has occured."); // Throws an exception if none of the above cases are met
             };
 
-            return ASCII;
+            return ASCII; // returns the ASCII value
 
         }
     }
